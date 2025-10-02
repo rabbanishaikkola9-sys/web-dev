@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs and forms</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1>Application for the UPSC examinations:</h1>
+    <form action="post"></form>
+    <label for="username">Enter the username</label>
+    <input
+      type="text"
+      id="username"
+      name="username"
+      placeholder="Enter the user name"
+    />
+    <h2>Select the gender:</h2>
+    <div>
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="female" value="female" />
+    </div>
+    <div>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="male" value="male" />
+    </div>
+    <div>
+      <label for="fruits">Select the fruit:</label>
+      <select name="fruits" id="fruits">
+        <option value="Apple">Apple</option>
+        <option value="Banana">Banana</option>
+        <option value="Cherry">Cherry</option>
+      </select>
+    </div>
+    <br />
+    <img src="UPSC.png" alt="" />
+    <div>
+      <label for="comemnt">Enter the comment:</label>
+      <textarea name="" id="comment">Enter the comments:</textarea>
+    </div>
+  </body>
+  <h3>NOTE:Only India and USA aspirants can be chosen</h3>
+  <label for="country">Enter your country:</label>
+  <select name="country" id="country">
+    <option value="India">India</option>
+    <option value="USA">USA</option>
+  </select>
+</html>
